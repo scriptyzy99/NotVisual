@@ -1,4 +1,4 @@
-local Players = game:GetService("Players")
+ ,local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
@@ -20,6 +20,7 @@ local petTable = {
     ["Paradise Egg"] = { "Ostrich", "Peacock", "Capybara" },
     ["Dinosaur Egg"] = { "Raptor", "Triceratops", "Stegosaurus" },
     ["Primal Egg"] = { "Parasaurolophus", "Iguanodon", "Pachycephalosaurus" },
+    ["Zen Egg"] = { "Kitsune", "Tanuki", "Kappa" },
 }
 
 local espEnabled = true
