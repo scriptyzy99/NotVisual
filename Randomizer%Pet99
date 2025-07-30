@@ -1,4 +1,4 @@
- ,local Players = game:GetService("Players")
+local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
@@ -420,10 +420,6 @@ loadAgeBtn.Text = "🕒 Load Pet Age 50 Script"
 loadAgeBtn.TextSize = 16
 loadAgeBtn.Font = Enum.Font.FredokaOne
 loadAgeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-
-loadAgeBtn.MouseButton1Click:Connect(function()
-  
-end)
 
 local credit = Instance.new("TextLabel", frame)
 credit.Size = UDim2.new(1, 0, 0, 20)
